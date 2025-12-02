@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "es2022",
     "moduleResolution": "node",
     "target": "ES2023",
     "strict": true,
+    "outDir": "./dist",
     "esModuleInterop": true,
-    "ignoreDeprecations": "6.0"
+    "ignoreDeprecations": "5.0",
   }
 }
